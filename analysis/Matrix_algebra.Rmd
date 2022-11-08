@@ -295,14 +295,6 @@ C = A%*%B
 print(C)
 ```
 
-```{r}
-x = matrix(c(3, 0, 0,
-             0, 4, 0,
-             0, 0, 5), nrow = 3, ncol = 3, byrow = T)
-solve(x)
-```
-
-
 ## The inverse of a square matrix
 
 The inverse of a square matrix can by obtained as follows:
